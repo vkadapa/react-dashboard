@@ -1,7 +1,12 @@
 import React from "react";
 
-function App(){
- return <h2>Banking Analytics Dashboard</h2>;
-}
+export default function App(){
 
-export default App;
+return (
+<div style={{padding:"20px"}}>
+<h2>Fraud Monitoring Dashboard</h2>
+<p>Streaming alerts from fraud detection pipeline</p>
+</div>
+)
+
+}
